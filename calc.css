@@ -1,0 +1,55 @@
+ body{
+    margin-left: 40%;
+    margin-top: 10%;
+ }
+ div{
+        border: 2px solid black;
+        padding: 4px;
+        width:210px;
+        height: 315px;
+        background-color:rgb(141, 124, 118);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+table{
+        border: 1px solid black;
+        padding: 2px;
+        margin-top: 6px;
+        background-color: rgb(99, 94, 94);
+    }
+ #your-input{
+        width: 200px;
+        height: 40px;
+        background-color: aquamarine;
+    }
+button{
+        width:45px;
+        height: 22px;
+        border-radius: 2px;
+        color: rgb(14, 2, 2);
+    }
+p{
+        width:200px;
+        height: 40px;
+        border: 1px solid black;
+        background-color: burlywood;
+        color: black;
+    }
+i{
+        margin-left: 30%;
+        color: 2px solid black;
+    }
+.special{
+    color: chartreuse;
+    background-color: darkgoldenrod;
+}
+.number-button{
+    background-color: cadetblue;
+}
+#dot{
+    color: 4px solid black;
+}
+.equal{
+    background-color: rgb(142, 88, 88);
+    color: whitesmoke;
+}

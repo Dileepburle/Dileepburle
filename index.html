@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div>
+    <table>
+        <thead>
+           <form id="calc">
+           <input name="number1" type="text" id="your-input" style="width:200px">
+           </form>
+        </thead>
+ <tr>
+    <td><button class="number-button" value="1">1</button></td>
+    <td><button class="number-button" value="2">2</button></td>
+    <td><button class="number-button" value="3">3</button></td>
+    <td><button class="special" onclick="document.getElementById('your-input').value = ''">clr</button></td>
+</tr>
+<tr>
+    <td><button class="number-button" value="4">4</button></td>
+    <td><button class="number-button" value="5">5</button></td>
+    <td><button class="number-button" value="6">6</button></td>
+    <td><button class="number-button" value="+">+</button></td>   
+</tr>
+<tr>
+    <td><button class="number-button" value="7">7</button></td>
+    <td><button class="number-button" value="8">8</button></td>
+    <td><button class="number-button" value="9">9</button></td>
+    <td><button class="number-button" value="-">-</button></td>
+</tr>
+<tr>
+   <td><button class="special" onclick="square()">x^2</button></td>
+   <td><button class="number-button" value="0">0</button></td>
+   <td><button id="dot" class="number-button" value=".">.</button></td>
+   <td><button class="number-button" value="/">/</button></td>  
+</tr>
+<tr>
+   <td><button class="special" onclick="cube()">x^3</button></td>
+   <td><button class="special" onclick="sqrt()">sqrt</button></td>
+   <td><button class="special" onclick="age()">age</button></td>
+   <td><button class="number-button" value="**">^</button></td>
+</tr>
+<tr>
+    <td><button class="special" onclick="factorial()">x!</button></td>
+    <td><button class="special" onclick="temperature()">temp</button></td>
+    <td><button class="special" onclick="backSpace()">DEL</button></td>
+    <td><button class="equal" onclick="calculate()" value="=">=</button></td>
+</tr>
+    </table>
+    <p id="box"></p>
+    <i>CALCULATOR</i>
+</div>
+<script src="calc.js"></script>
+</body>
+</html>
